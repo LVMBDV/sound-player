@@ -46,7 +46,7 @@ class MyPlayer extends SoundPlayer {
     return args
   }
 
-  supportsFileExtension(ext: string): boolean {
+  supportsFileExtension(ext) {
     return ["mp3", "mp4"].includes(ext)
   }
 }
