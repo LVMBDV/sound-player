@@ -1,0 +1,22 @@
+{
+  "name": "sound-player",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for CLI sound players",
+  "author": "Ata Kuyumcu",
+  "license": "SEE LICENSE in LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LVMBDV/sound-player.git"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "@types/find-exec": "^1.0.0"
+  },
+  "dependencies": {
+    "find-exec": "^1.0.2"
+  }
+}
