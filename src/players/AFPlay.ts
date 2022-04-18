@@ -1,5 +1,5 @@
-import SoundPlayer from "./SoundPlayer"
 import PlayOptions, { PlayOptionKey } from "../PlayOptions"
+import SoundPlayer from "./SoundPlayer"
 
 export default class AFPlay extends SoundPlayer {
   command: string = "afplay"

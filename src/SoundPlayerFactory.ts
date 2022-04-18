@@ -1,8 +1,7 @@
 import { extname } from 'path'
+import SoundPlayer from './players/SoundPlayer'
 import PlayOptions, { PlayOptionKey } from './PlayOptions'
 import Sound from './Sound'
-import SoundPlayer from './players/SoundPlayer'
-import { MissingFeatureError } from './errors'
 
 interface FactoryPlayOptions extends PlayOptions {
   throwOnMissingFeature?: boolean
