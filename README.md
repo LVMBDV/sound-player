@@ -26,7 +26,7 @@ You can also register your own player by extending the
 registering it with the `SoundPlayer.registerPlayer(player)` method.
 
 ```javascript
-import SoundPlayer from 'sound-player'
+import { SoundPlayer } from 'sound-player'
 
 class MyPlayer extends SoundPlayer {
   command = "my-player"
